@@ -1,0 +1,11 @@
+{
+  "places": 3721,
+  "events": 15,
+  "with_coordinates": 5,
+  "events_checked_on": "2026-10-09T07:35:33.095336+00:00",
+  "built_on": "2026-10-09T07:44:36.003190+00:00",
+  "public": true,
+  "authentication": false,
+  "analytics": false,
+  "base_href": "/berlin-events-mobile-preview/"
+}

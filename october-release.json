@@ -1,0 +1,7 @@
+{
+  "sourceCommit": "ba182b08d792b63de72db0cee9c687fa61dc21c4",
+  "workflowRun": 37899871195,
+  "artifact": 11602141563,
+  "artifactDigest": "sha256:0225c551693a8183214e4560fba310392ba241e29f8fede25131d83174bf5929",
+  "rollbackCommit": "9d0079fd3e8f445a33570633c85f77c3f13f69f5"
+}
