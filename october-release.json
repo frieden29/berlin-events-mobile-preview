@@ -1,7 +1,5 @@
 {
-  "sourceCommit": "306bc885ca54961f4ef711ec696d7edd45b759d3",
-  "workflowRun": 37913901114,
-  "artifact": 11609690825,
-  "artifactDigest": "sha256:264a08d3d83fd0a5b7c098fc548512c6b225c861d96b703c5b5f213227eab0c5",
-  "rollbackCommit": "4aef247b85ed68f3fec1a0d7dc2e9df9a2faaa03"
+  "sourceCommit": "9fb1d3dc5c32def303044f400603e7c8f56bf735",
+  "workflowRun": 37922737616,
+  "rollbackCommit": "16792e399eae103d6469ec15c34cf5e52b33af7d"
 }

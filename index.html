@@ -42,5 +42,17 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+<!-- Cloudflare Web Analytics: public preview only -->
+<script>
+if (location.hostname === 'frieden29.github.io' &&
+    location.pathname === '/berlin-events-mobile-preview/') {
+  const beacon = document.createElement('script');
+  beacon.defer = true;
+  beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  beacon.referrerPolicy = 'no-referrer';
+  beacon.setAttribute('data-cf-beacon', '{"token":"f3f259388ca74f87b4dcb94598b9b7f4","spa":false}');
+  document.head.appendChild(beacon);
+}
+</script>
 </body>
 </html>
