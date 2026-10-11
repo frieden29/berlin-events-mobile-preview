@@ -52,6 +52,17 @@ if (location.hostname === 'frieden29.github.io' &&
   beacon.referrerPolicy = 'no-referrer';
   beacon.setAttribute('data-cf-beacon', '{"token":"f3f259388ca74f87b4dcb94598b9b7f4","spa":false}');
   document.head.appendChild(beacon);
+
+  // One fixed page view per document load. Flutter state changes do not call count().
+  window.goatcounter = {
+    path: function() { return '/berlin-events-mobile-preview/'; }
+  };
+  const goatcounter = document.createElement('script');
+  goatcounter.async = true;
+  goatcounter.src = 'https://gc.zgo.at/count.js';
+  goatcounter.referrerPolicy = 'no-referrer';
+  goatcounter.setAttribute('data-goatcounter', 'https://berlin-events-preview.goatcounter.com/count');
+  document.head.appendChild(goatcounter);
 }
 </script>
 </body>
