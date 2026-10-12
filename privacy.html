@@ -105,5 +105,66 @@ Cloudflare أنه يُتلف في أقرب مركز بيانات ولا يُخز
 يعتمد على وقت الجهاز.</p>
 <p><strong>تُقدّم هذه الترجمة لتسهيل القراءة، وما زالت تحتاج إلى مراجعة قانونية.</strong></p>
 </section>
+<hr>
+<section lang="de">
+<h1>Ungefährer Online-Status</h1>
+<p>Online Now: Stand 12.10.2026. Die Sitzungs-ID wird beim Verbindungsaufbau an den Worker übermittelt und mit dem letzten Aktivitätszeitpunkt verarbeitet. Nach zwei Minuten ohne Bedienung schließt die App die Verbindung. Eine erneute Verbindung im selben Tab verwendet dieselbe ID; Sprach- und Filterwechsel erzeugen keine zusätzliche Sitzung. Nur die geschützte Verwaltungsseite zeigt die Anzahl. Technische Verbindungsdaten werden durch Cloudflare verarbeitet; die Begrenzung der Durable Objects auf die EU ist keine Zusage, dass sämtliche Cloudflare-Netzwerkverarbeitung ausschließlich in der EU stattfindet.</p>
+<p>Wenn die App sichtbar ist und kürzlich verwendet wurde, baut sie eine
+verschlüsselte WebSocket-Verbindung zu einem Cloudflare Worker auf und sendet
+beim Verbindungsaufbau und danach alle 30 Sekunden ausschließlich das Signal „active“. Eine zufällige
+Sitzungs-ID wird nur im sessionStorage des Tabs gespeichert. Zeitangaben werden
+serverseitig erzeugt. GPS, Suchtexte, Favoriten, Namen, Telefonnummern und
+Filterdetails werden nicht übertragen. Beim Ausblenden oder Verlassen wird die
+Verbindung geschlossen; bei einem Abbruch verfällt sie spätestens nach fünf
+Minuten. Der angezeigte Wert ist eine Näherung aktiver Sitzungen und keine
+bestätigte Zahl eindeutiger Personen. Cloudflare verarbeitet die IP-Adresse für
+die HTTPS-Verbindung und vorübergehend zur Missbrauchsbegrenzung; sie wird nicht
+im Anwesenheitsdatensatz gespeichert. Das Durable Object wird auf die
+EU-Jurisdiktion beschränkt.</p>
+</section>
+<section lang="en">
+<h1>Approximate online status</h1>
+<p>Online Now: updated 12.10.2026. The session ID is sent to the Worker on connection and processed with the last activity time. After two minutes without interaction, the app closes the connection. Reconnecting in the same tab reuses the ID; language and filter changes do not create an additional session. Only the protected administrator page displays the count. Cloudflare processes technical connection data; EU Durable Objects do not guarantee that all Cloudflare network processing occurs exclusively in the EU.</p>
+<p>When the app is visible and was used recently, it opens an encrypted
+WebSocket connection to a Cloudflare Worker and sends only the literal
+“active” on connection and then every 30 seconds. A random session ID is kept only in the
+tab's sessionStorage; timestamps are created by the server. No GPS, search
+text, favorites, names, phone numbers, or filter details are sent. The
+connection closes when the page is hidden or left and otherwise expires after
+five minutes. The result estimates active sessions; it does not identify
+unique people. Cloudflare processes the IP address for HTTPS and temporarily
+for abuse limiting, but it is not stored in the presence record. The Durable
+Object is restricted to the EU jurisdiction.</p>
+<p><strong>Translation provided for readability; legal review is pending.</strong></p>
+</section>
+<section lang="tr">
+<h1>Yaklaşık çevrimiçi durumu</h1>
+<p>Online Now: güncelleme 12.10.2026. Oturum kimliği bağlantı kurulurken Worker’a gönderilir ve son etkinlik zamanı ile işlenir. İki dakika etkileşim olmazsa uygulama bağlantıyı kapatır. Aynı sekmede yeniden bağlantı aynı kimliği kullanır; dil ve filtre değişiklikleri ek oturum oluşturmaz. Sayı yalnızca korumalı yönetici sayfasında gösterilir. Cloudflare teknik bağlantı verilerini işler; Durable Objects için AB seçimi tüm ağ işlemlerinin yalnızca AB içinde yapılacağını garanti etmez.</p>
+<p>Uygulama görünür ve kısa süre önce kullanılmışsa Cloudflare Worker'a şifreli
+bir WebSocket bağlantısı açar; bağlantıda ve ardından 30 saniyede bir yalnızca “active”
+sinyalini gönderir. Rastgele oturum kimliği yalnızca sekmenin sessionStorage
+alanında tutulur; zaman bilgisi sunucuda oluşturulur. GPS, arama metni,
+favoriler, adlar, telefon numaraları veya filtre ayrıntıları gönderilmez. Sayfa
+gizlendiğinde ya da kapatıldığında bağlantı kapanır; bağlantı kesilirse oturum
+en geç beş dakika sonra sona erer. Sonuç benzersiz kişileri değil, yaklaşık
+aktif oturum sayısını gösterir. Cloudflare IP adresini HTTPS bağlantısı ve
+geçici kötüye kullanım sınırlaması için işler; hazır bulunma kaydında saklamaz.
+Durable Object AB yetki alanıyla sınırlandırılır.</p>
+<p><strong>Bu çeviri okunabilirlik içindir; hukuki inceleme beklemektedir.</strong></p>
+</section>
+<section lang="ar" dir="rtl">
+<h1>الحالة التقريبية للاتصال</h1>
+<p>Online Now: آخر تحديث 12.10.2026. يُرسل معرّف الجلسة إلى Worker عند الاتصال ويُعالج مع وقت آخر نشاط. يغلق التطبيق الاتصال بعد دقيقتين دون تفاعل. تستخدم إعادة الاتصال في التبويب نفسه المعرّف ذاته؛ ولا تنشئ تغييرات اللغة والفلاتر جلسة إضافية. يظهر العدد فقط في لوحة المدير المحمية. تعالج Cloudflare بيانات الاتصال التقنية؛ ولا يعني تخصيص Durable Objects للاتحاد الأوروبي ضمان اقتصار جميع عمليات شبكة Cloudflare على الاتحاد الأوروبي.</p>
+<p>عندما يكون التطبيق ظاهرًا وقد استُخدم مؤخرًا، يفتح اتصال WebSocket مشفرًا مع
+Cloudflare Worker ويرسل كلمة “active” فقط عند الاتصال ثم كل 30 ثانية. يُحفظ
+معرّف جلسة عشوائي داخل sessionStorage للتبويب فقط، وينشئ الخادم الوقت. لا تُرسل
+إحداثيات GPS أو نصوص البحث أو المفضلة أو الأسماء أو أرقام الهواتف أو تفاصيل
+الفلاتر. يُغلق الاتصال عند إخفاء الصفحة أو مغادرتها، وتنتهي الجلسة خلال خمس
+دقائق عند الانقطاع. تمثل النتيجة تقديرًا لعدد الجلسات النشطة وليست عددًا مؤكدًا
+لأشخاص فريدين. تعالج Cloudflare عنوان IP لاتصال HTTPS ومؤقتًا للحد من إساءة
+الاستخدام، لكنه لا يُخزن ضمن سجل الحضور. يُقيّد Durable Object داخل نطاق
+الاتحاد الأوروبي.</p>
+<p><strong>تُقدّم هذه الترجمة لتسهيل القراءة، وما زالت تحتاج إلى مراجعة قانونية.</strong></p>
+</section>
 <p><a href="./">Zurück zur Karte · Back to the map · Haritaya dön · العودة إلى الخريطة</a></p>
 </html>

@@ -3,12 +3,17 @@
   "events": 15,
   "with_coordinates": 5,
   "events_checked_on": "2026-10-08T11:56:07.981607+00:00",
-  "built_on": "2026-10-11T19:28:27.288673+00:00",
+  "built_on": "2026-10-12T11:57:58.359216+00:00",
   "public": true,
   "authentication": false,
   "analytics": [
     "goatcounter",
     "cloudflare-web-analytics"
   ],
-  "base_href": "/berlin-events-mobile-preview/"
+  "base_href": "/berlin-events-mobile-preview/",
+  "presence": {
+    "enabled": true,
+    "provider": "cloudflare-workers-durable-objects",
+    "active_window_seconds": 300
+  }
 }
