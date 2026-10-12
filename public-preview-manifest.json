@@ -1,9 +1,9 @@
 {
   "places": 3721,
-  "events": 15,
-  "with_coordinates": 5,
-  "events_checked_on": "2026-10-08T11:56:07.981607+00:00",
-  "built_on": "2026-10-12T11:57:58.359216+00:00",
+  "events": 2529,
+  "with_coordinates": 604,
+  "events_checked_on": "2026-10-12T15:18:32.591914+00:00",
+  "built_on": "2026-10-12T15:21:57.787134+00:00",
   "public": true,
   "authentication": false,
   "analytics": [
